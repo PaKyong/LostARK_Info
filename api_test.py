@@ -4,18 +4,12 @@ import requests
 # r = requests.get('https://developer-lostark.game.onstove.com/characters/야근러/siblings', headers=header).json()
 # r = requests.get('https://developer-lostark.game.onstove.com/armories/characters/야근러/equipment', headers=header).json()
 # r = requests.get('https://developer-lostark.game.onstove.com/auctions/options', headers=header)
-#  
+
 
 class LostArkAPI:
     header = {
         'accept': 'application/json',
-        'authorization':  
-                          
-                          
-                          
-                          
-                          
-                          ,
+        'authorization': '',
         'content-Type': 'application/json'
     }
 
